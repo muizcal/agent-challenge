@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "type": "container",
+  "name": "documind-hackathon",
+  "image": "muizcal/documind-agent-server:latest",
+  "resources": {
+    "gpu": "nvidia-3090"
+  },
+  "ports": [4001, 3000],
+  "env": [
+    { "name": "OPENAI_API_KEY", "value": "${OPENAI_API_KEY}" },
+    { "name": "GEMINI_API_KEY", "value": "${GEMINI_API_KEY}" },
+    { "name": "OLLAMA_API_URL", "value": "http://127.0.0.1:11434" },
+    { "name": "MODEL_NAME_AT_ENDPOINT", "value": "phi3" }
+  ],
+  "ops": [
+    {
+      "type": "run",
+      "command": "pnpm start"
+    }
+  ]
+}
