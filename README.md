@@ -45,16 +45,16 @@ DocuMind is not just a summarizer  it’s a **multi-function AI reasoning agent*
 Create `.env.local` in `/apps/web` and `/apps/agent-server`:
 
 ```bash
-# Local AI model
+
 OLLAMA_API_URL=http://127.0.0.1:11434
 MODEL_NAME_AT_ENDPOINT=phi3
 
-# Optional API keys (not committed)
+
 OPENAI_API_KEY=your_openai_key
 GEMINI_API_KEY=your_gemini_key
 GEMINI_MODEL=models/gemini-2.5-flash
 
-# Frontend connects to backend (Nosana URL)
+
 NEXT_PUBLIC_BACKEND_URL=https://4a539vppxvvzjpgmuz4nryhynrkuhn2r6bdcgsynwrox.node.k8s.prd.nos.ci
 ```
 
