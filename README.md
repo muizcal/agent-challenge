@@ -1,13 +1,13 @@
 # 🧠 DocuMind AI Agent
 
-**DocuMind AI Agent** is an intelligent, decentralized document and research assistant that summarizes, analyzes, and extracts insights from text — while also supporting contextual Q&A and advanced reasoning.  
+**DocuMind AI Agent** is an intelligent, decentralized document and research assistant that summarizes, analyzes, and extracts insights from text while also supporting contextual Q&A and advanced reasoning.  
 Built using **Nosana**, **Docker**, and hybrid AI inference (**local + cloud models**).
 
 ---
 
 ## 🚀 Overview
 
-DocuMind is not just a summarizer — it’s a **multi-function AI reasoning agent** designed to:
+DocuMind is not just a summarizer  it’s a **multi-function AI reasoning agent** designed to:
 
 - 🧠 Interpret and summarize documents  
 - 🔍 Extract structured insights and relationships  
@@ -130,7 +130,7 @@ Then update `.env.local` in your frontend with:
 NEXT_PUBLIC_BACKEND_URL=https://4a539vppxvvzjpgmuz4nryhynrkuhn2r6bdcgsynwrox.node.k8s.prd.nos.ci
 ```
 
-Rebuild and redeploy your frontend (e.g., on Vercel).
+Rebuild and redeploy your frontend 
 
 ---
 
